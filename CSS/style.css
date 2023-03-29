@@ -1,0 +1,86 @@
+body{
+     background: url("../../../Submitted%20files/GIOVANNA%20NERI%20DOS%20SANTOS/CSS%20Animations/fundo.jpeg");
+     background-repeat:repeat
+}
+     
+h1{
+    border-style: double;
+}
+
+h1{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color:palevioletred;
+}
+
+h1{
+    width: 250px;
+  height: 60px;
+  position: relative;
+  background-color: rgb(239, 83, 166);
+  animation-name: Tom e Jerry;
+  animation-duration: 4s;
+  animation-direction: reverse;
+}
+
+img{
+    transform: matrix(2, -0.3, 0, 1, 0);
+    width: 400px;
+    height: 300px;
+    background: red;
+    transition: width 15s;
+    transition-timing-function: ease-out;
+    border-radius: 50%;
+}
+
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.container {
+    position: relative;
+    width: 30%;
+  }
+  
+  .image {
+   
+    width: 50%;
+    height: auto;
+    border-radius: 20%;
+    background-color:white
+    
+  }
+  
+  .overlay {
+    position: absolute;
+    bottom: 20%;
+    left: 0;
+    right: 0;
+    background-color: #ffb381;
+    overflow: hidden;
+    width: 50%;
+    height: 0;
+    transition: .5s ease;
+  }
+  
+  .container:hover .overlay {
+    bottom: 0;
+    height: 20%;
+  }
+  
+  .text {
+    white-space: nowrap; 
+    color: rgb(16, 11, 11);
+    font-size: 20px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+
+  
+
+
+
+  
